@@ -1,5 +1,5 @@
 #This is my submission for I/O Avenue's Project 1: Game On!
-#Still in planning/whiteboard phase 
+#David Capolupo 
 #https://misc.flogisoft.com/bash/tip_colors_and_formatting
 
 puts "\e[32mGWelcome to Code Academy: The Game!"
@@ -25,4 +25,10 @@ response = gets.chomp
 case response
     when "code"
     puts "\n You decide to hack away, with the hope that your game ends up being decent.  You hastily google a few simple bash commands that you hope will impress your classmates and your instructors."
+    when "don't"
+    puts "Ryan is very upset and kicks you out of class.  GAME OVER"
+    else 
+    puts "Listen pal, you gotta play by the rules.  Type code or don't"
 end
+
+
