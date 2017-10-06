@@ -2,33 +2,35 @@
 #David Capolupo 
 #https://misc.flogisoft.com/bash/tip_colors_and_formatting
 
-puts "\e[32mGWelcome to Code Academy: The Game!"
-puts "\e[1mYou're an aspiring dev with a knack for procrastination."
-puts "You've waited until the last day to start working on your project."
+puts "\e[32mWelcome to Lucky 6's: The Game!"
+puts "DISCLAIMER:  PLEASE GAMBLE RESPONSIBLY."
+puts "\e[1mToday is your lucky day! You're at the State Fair and you find a hunded dollar bill on the ground!"
+puts "You grab the bill and notice that you are standing in front of a dice game booth."
 puts "What will you do?"
-puts "Options: sleep, code away, give up"
+puts "Options: play, pocket"
 option = gets.chomp
 case option
-when "sleep"
-puts "You spend all night watching reruns, and don't get much sleep! You wake up the next morning full of regret and have no tangible progress on your project.  Bummer!"
-when "code away"
-puts "You work diligently, reviewing the lecture slides as well as your notes.  You're able to piece together a complex game using clean code.  Even the instructor is impressed!"
-when "give up"
-puts "You skip this project altogether.  As a result, you fall behind the other members of your cohort.  For years to come, you are filled with regret and always wonder what could have been had you not given up so easily.  GAME OVER "
+when "play"
+puts "You sit down at the table.  The game operator quickly explains the rules."
+    puts "You can bet in increments of one, five, or ten dollars."
+        puts "You then guess a number from one to six, and roll a single die."
+            puts "If you guess correctly, you win double your bet amount.  Lose, and you gotta pay up!"
+when "pocket"
+puts "You pocket the money, already making plans to spend it elsewhere.  You begin to walk away"
 else
-puts "You decide to think outside the box, and begin surfing the web for ideas.  You quickly get sidetracked and end up developing a simple chatbot that echoes user input."
-puts "While your creation is interesting, it doesn't go over well when you present it to the class.  You should have followed directions more diligently!"
+puts "You're an outside the box thinker, but Lucky 6's is free.  Buy the premium version (USD $300.00)to unlock additional content."
 end
 
-puts "\n What will you do next? code or don't \n" 
+puts "\n What will you do next: play or pocket? \n" 
 response = gets.chomp
 case response
-    when "code"
-    puts "\n You decide to hack away, with the hope that your game ends up being decent.  You hastily google a few simple bash commands that you hope will impress your classmates and your instructors."
-    when "don't"
-    puts "Ryan is very upset and kicks you out of class.  GAME OVER"
+    when "play"
+puts "You sit down at the table.  The game operator quickly explains the rules."
+    puts "You can bet in increments of one, five, or ten dollars."
+        puts "You then guess a number from one to six, and roll a single die."
+            puts "If you guess correctly, you win double your bet amount.  Lose, and you gotta pay up!"
+when ""
     else 
-    puts "Listen pal, you gotta play by the rules.  Type code or don't"
 end
 
 
